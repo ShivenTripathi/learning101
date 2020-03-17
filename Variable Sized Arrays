@@ -1,0 +1,25 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    unsigned int n,q,j,i,i1,i2,size;
+    cin>>n>>q;
+    int *a[n];
+    for(i=0;i<n;i++){
+      cin>>size;
+      a[i]=new int[size];
+      for(j=0;j<size;j++)
+      cin>>a[i][j];
+    }
+    while(q--){
+        cin>>i1>>i2;
+        cout<<a[i1][i2]<<endl;
+    }
+    return 0;
+}
