@@ -1,0 +1,8 @@
+prefix=/home/shiven/dev/catkin_ws/install
+
+Name: chapter2_tutorials
+Description: Description of chapter2_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
